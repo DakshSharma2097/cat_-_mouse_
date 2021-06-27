@@ -10,12 +10,12 @@ var mouseTeaseImage, mouseStopImage;
 
 function preload() {
     //load the images here
-    backgroundImage = loadImage("images/garden.png");
-    mouseTeaseImage = loadAnimation("images/mouse2.png","images/mouse3.png");
-    mouseStopImage = loadAnimation("images/mouse4.png");
-    catWalkImage = loadAnimation("images/cat2.png","images/cat3.png");
-    catSitImage = loadAnimation("images/cat1.png");
-    catStandImage = loadAnimation("images/cat4.png");
+    backgroundImage = loadImage("garden.png");
+    mouseTeaseImage = loadAnimation("mouse2.png","images/mouse3.png");
+    mouseStopImage = loadAnimation("mouse4.png");
+    catWalkImage = loadAnimation("cat2.png","images/cat3.png");
+    catSitImage = loadAnimation("cat1.png");
+    catStandImage = loadAnimation("cat4.png");
 }
 
 function setup(){
